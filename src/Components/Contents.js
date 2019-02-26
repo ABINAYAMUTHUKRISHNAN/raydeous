@@ -9,7 +9,7 @@ import {
   Row,
   Breadcrumb
 } from "antd";
-
+import { NavLink } from "react-router-dom";
 class Contents extends Component {
   render() {
     const { Content } = Layout;
@@ -55,7 +55,7 @@ class Contents extends Component {
                 <Divider type="vertical" />
               </Col>
               <Col span={2}>
-                <a href="#">Edit</a>
+                <NavLink to="/Form">Edit</NavLink>
               </Col>
             </div>
           </Card>
